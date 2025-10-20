@@ -1,13 +1,12 @@
 # Arduino Alarm Clock
 
-This is a simple *Arduino-based alarm clock* using a *16x2 LCD* and a *4x4 keypad*. It allows you to set the current time, configure an alarm, and provides a buzzer notification when the alarm goes off.
+This is a simple *Arduino-based alarm clock* using a *16x2 LCD* and a *4x4 keypad*.  
 
-[Watch a demo video](https://www.youtube.com/shorts/GKTbKIOK1yM)
+[![Watch the demo](https://img.youtube.com/vi/GKTbKIOK1yM/0.jpg)](https://www.youtube.com/shorts/GKTbKIOK1yM)
 
 ---
 
 ## Features
-
 - Display current time on a 16x2 LCD
 - Set hours, minutes, and seconds
 - Set an alarm time
@@ -18,7 +17,6 @@ This is a simple *Arduino-based alarm clock* using a *16x2 LCD* and a *4x4 keypa
 ---
 
 ## Hardware Requirements
-
 - Arduino board (Uno, Mega, etc.)
 - 16x2 I2C LCD
 - 4x4 Keypad
@@ -29,7 +27,6 @@ This is a simple *Arduino-based alarm clock* using a *16x2 LCD* and a *4x4 keypa
 ---
 
 ## Connections
-
 | Component       | Pin on Arduino |
 |-----------------|----------------|
 | LCD SDA         | A4             |
@@ -41,7 +38,6 @@ This is a simple *Arduino-based alarm clock* using a *16x2 LCD* and a *4x4 keypa
 ---
 
 ## Keypad Controls
-
 | Key | Function                                      |
 |-----|-----------------------------------------------|
 | 1   | Toggle edit mode for current time            |
@@ -57,10 +53,8 @@ This is a simple *Arduino-based alarm clock* using a *16x2 LCD* and a *4x4 keypa
 ---
 
 ## Code
-
 The main code file is AlarmClock.ino.  
 It uses the following libraries:
-
 - [Wire.h](https://www.arduino.cc/en/reference/wire)  
 - [LiquidCrystal_I2C.h](https://github.com/johnrickman/LiquidCrystal_I2C)  
 - [Keypad.h](https://playground.arduino.cc/Code/Keypad/)
@@ -68,7 +62,6 @@ It uses the following libraries:
 ---
 
 ## How It Works
-
 1. The clock keeps track of hours, minutes, and seconds.
 2. The user can edit the current time using the keypad.
 3. The user can set an alarm time.
@@ -77,13 +70,6 @@ It uses the following libraries:
 
 ---
 
-## Video Demo
-
-Watch the working demo here: [YouTube Short](https://www.youtube.com/shorts/GKTbKIOK1yM)
-
----
-
 ## License
-
 This project is licensed under the MIT License.  
 Feel free to use, modify, and share it!
